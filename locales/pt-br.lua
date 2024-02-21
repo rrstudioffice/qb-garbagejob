@@ -14,7 +14,7 @@ local Translations = {
         ["pay_slip"] = "Você recebeu $%{total}, seu recibo de pagamento de %{deposit} foi pago em sua conta bancária!",
     },
     target = {
-        ["talk"] = 'Converse com o Lixeiro',
+        ["talk"] = 'Converse com o Funcionário',
         ["grab_garbage"] = "Pegar saco de lixo",
         ["dispose_garbage"] = "Descartar Saco de Lixo",
     },
@@ -44,13 +44,17 @@ local Translations = {
         ["progressbar"] = "Colocando o saco no caminhão de lixo...",
         ["garbage_in_truck"] = "Coloque o saco no seu caminhão...",
         ["stand_here"] = "Fique aqui...",
-        ["found_crypto"] = "Você encontrou um pen drive criptografado no chão",
         ["payout_deposit"] = "(+ $%{value} de depósito)",
         ["store_truck"] =  "[E] - Guardar Caminhão de Lixo",
         ["get_truck"] =  "[E] - Caminhão de Lixo",
         ["picking_bag"] = "Pegando um saco de lixo...",
-        ["talk"] = "[E] Conversar com o Lixeiro",
+        ["talk"] = "[E] Conversar com o Funcionário"
     },
+    found = {
+        ["crypto"] = "Você encontrou um pen drive criptografado no chão",
+        ["aluminum"] = "Você encontrou um pedaço de alumínio no chão",
+        ["weapon_pistol"] = "Você encontrou uma Pistola"
+    }
 }
 
 

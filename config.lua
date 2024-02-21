@@ -26,6 +26,12 @@ Config.MinBagsPerStop = 2
 -- Maximum bags per stop
 Config.MaxBagsPerStop = 5
 
+Config.ChanceToFind = true
+Config.TrashItems = {
+    cryptostick = { label = 'found.crypto', amount = 1, chance = 10 },
+    aluminum = { label = 'found.aluminum', amount = 1, chance = 10 }
+}
+
 -- WIP: Do not use
 -- If you want to use custom routes instead of random amount of stops stops set to true
 Config.UsePreconfiguredRoutes = false
@@ -43,18 +49,18 @@ Config.Peds = {
 
 Config.Locations = {
     ["main"] = {
-        label = "Garbage Depot",
+        label = "Depósito de lixo",
         coords = vector3(-313.84, -1522.82, 27.56),
     },
     ["vehicle"] = {
-        label = "Garbage Truck Storage",
+        label = "Armazenamento do caminhão de lixo",
         coords = { -- parking spot locations to spawn garbage
             [1] = vector4(-333.84, -1527.28, 27.28, 1.97),
             [2] = vector4(-327.55, -1527.69, 27.25, 359.43),
         },
     },
     ["paycheck"] = {
-        label = "Payslip Collection",
+        label = "Coleta de contracheque",
         coords = vector3(-321.45, -1545.86, 31.02),
     },
     ["trashcan"] ={
